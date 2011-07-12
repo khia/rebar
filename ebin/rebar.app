@@ -37,7 +37,9 @@
               rebar_utils,
               rebar_xref,
               getopt,
-              mustache ]},
+              mustache,
+              agner_rebar_plugin
+            ]},
   {registered, []},
   {applications, [kernel,
                   stdlib,
